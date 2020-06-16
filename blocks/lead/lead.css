@@ -2,18 +2,21 @@
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
+@import url(./__figure/lead__figure.css);
 
 .lead {
     width: 77%;
     margin: 0 auto;
+    padding-top: 56px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
     .lead {
       width: 89.5%;
+      padding-top: 48px;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
     .lead {
         width: 100%;
       }

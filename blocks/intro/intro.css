@@ -2,6 +2,7 @@
 @import url(./__text/intro__text.css);
 @import url(./__block-list/intro__block-list.css);
 @import url(./__list/intro__list.css);
+@import url(./__span-accent/intro__span-accent.css);
 
 .intro {
     padding-left: 11.5%;
@@ -11,7 +12,8 @@
 
 @media (max-width: 1024px) {
     .intro {
-    padding-left: 5%;
+        padding-left: 5%;
+    }
 }
 
 @media (max-width: 768px) {

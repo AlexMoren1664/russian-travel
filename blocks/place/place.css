@@ -26,11 +26,10 @@
 @media (max-width: 768px) {
     .place {
         column-gap: 28px;
-        padding-bottom: 72px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
     .place {
         display: block;
         padding-bottom: 0;

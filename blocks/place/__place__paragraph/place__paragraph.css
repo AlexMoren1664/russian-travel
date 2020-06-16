@@ -15,7 +15,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
     .place__paragraph {
         padding-left: 16px;
         padding-right: 16px;

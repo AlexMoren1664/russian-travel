@@ -40,7 +40,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (max-width: 500px) {
     .cover__background {
         min-height: 200px;
     }
