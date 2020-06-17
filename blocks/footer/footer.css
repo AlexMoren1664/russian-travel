@@ -1,4 +1,4 @@
-@import url(./__list/footer__list.css);/**/
+@import url(./__list/footer__list.css);
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
 @import url(./__copyright/footer__copyright.css);
@@ -8,6 +8,9 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+    max-width: 1280px;
+    box-sizing: border-box;
+    margin: 0 auto;
   }
 
 @media (min-width: 1024px) {
